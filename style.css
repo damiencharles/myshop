@@ -1,0 +1,53 @@
+.voir:hover {
+background-color: transparent;
+color: #d23341;
+}
+
+.animate__backInRight {
+    animation-duration: 1.5s; /* don't forget to set a duration! */
+  }
+  .animate__backInLeft {
+    animation-duration: 1.5s; /* don't forget to set a duration! */
+  }
+
+  .blue {
+      text-decoration: none;
+      color : #27303F;
+  }
+
+  .blue:hover {
+    text-decoration: none;
+    color: #d23341;
+  }
+
+  .fas {
+    color: #d23341;
+  }
+
+  img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+  }
+
+  .dropdown-item:active {
+    background-color:transparent ;
+    color : #d23341;
+  }
+
+  .toast {
+    position: absolute;
+    top : 55%;
+    left: 74%;
+  }
+
+  .popover {
+    position: relative;
+    background-color: #27303f5e;
+
+  }
+
+  @media (max-width:768px){
+    .toast {
+      visibility: hidden;
+    }
+  }
